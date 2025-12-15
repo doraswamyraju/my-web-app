@@ -10,7 +10,7 @@ function App() {
   
   // POINT THIS TO YOUR LOCAL API FOR TESTING
   // When we upload to the server later, we will change this path.
-  const API_URL = "http://localhost/my-web-app/api/contacts.php";
+const API_URL = "./api/contacts.php";
 
   // Fetch data for the Dashboard on load
   useEffect(() => {

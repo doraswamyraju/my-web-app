@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rajugda1/public_html/my-web-app/
+    - /bin/cp -R client/build/* $DEPLOYPATH
+    - /bin/cp -R api $DEPLOYPATH
